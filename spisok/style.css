@@ -1,0 +1,37 @@
+body {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+#app{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 3px 20px #0ba2ff;
+    padding: 20px;
+    margin: 20px auto;
+    color: #0ba2ff;
+    border-radius: 20px;
+}
+
+button{
+    background-color: #0ba2ff;
+    color: aliceblue;
+    border: #004f80;
+    height: 4vh;
+}
+
+.noactive{
+    display: none;
+}
+
+.filter{
+    display: flex;
+    flex-direction: row;
+}
+
+.mainInput{
+    height: 40px;
+}
